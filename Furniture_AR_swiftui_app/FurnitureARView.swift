@@ -19,5 +19,13 @@ class FurnitureARView: ARView {
     
     convenience init (item: FurnitureItem) {
         self.init(frame: UIScreen.main.bounds)
+        
+        let anchor = AnchorEntity(.plane(.horizontal, classification: .floor, minimumBounds: .zero))
+        guard let entity = try? Entity.load(named: item.entityName) else {
+            fatalError("Failed to load entity named \(item.entityName)")
+        }
+        
+        anchor.addChild(entity)
+        scene.addAnchor(anchor)
     }
 }

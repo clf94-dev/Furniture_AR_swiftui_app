@@ -17,7 +17,7 @@ class FurnitureARView: ARView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    convenience init () {
+    convenience init (item: FurnitureItem) {
         self.init(frame: UIScreen.main.bounds)
     }
 }

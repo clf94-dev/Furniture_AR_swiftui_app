@@ -13,6 +13,14 @@
 		32625CF62A99D4ED005E3F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32625CF52A99D4ED005E3F0D /* Preview Assets.xcassets */; };
 		32625CFD2A99D703005E3F0D /* FurnitureARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32625CFC2A99D703005E3F0D /* FurnitureARView.swift */; };
 		32625CFF2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */; };
+		32625D082A9A43F3005E3F0D /* cup.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D002A9A43F0005E3F0D /* cup.usdz */; };
+		32625D092A9A43F3005E3F0D /* chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D012A9A43F1005E3F0D /* chair.usdz */; };
+		32625D0A2A9A43F3005E3F0D /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D022A9A43F1005E3F0D /* gramophone.usdz */; };
+		32625D0B2A9A43F3005E3F0D /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D032A9A43F2005E3F0D /* tulip.usdz */; };
+		32625D0C2A9A43F3005E3F0D /* stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D042A9A43F2005E3F0D /* stratocaster.usdz */; };
+		32625D0D2A9A43F3005E3F0D /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D052A9A43F2005E3F0D /* wateringcan.usdz */; };
+		32625D0E2A9A43F3005E3F0D /* tv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D062A9A43F3005E3F0D /* tv.usdz */; };
+		32625D0F2A9A43F3005E3F0D /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 32625D072A9A43F3005E3F0D /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +31,14 @@
 		32625CF52A99D4ED005E3F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32625CFC2A99D703005E3F0D /* FurnitureARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureARView.swift; sourceTree = "<group>"; };
 		32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturARViewRepresentable.swift; sourceTree = "<group>"; };
+		32625D002A9A43F0005E3F0D /* cup.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup.usdz; sourceTree = "<group>"; };
+		32625D012A9A43F1005E3F0D /* chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair.usdz; sourceTree = "<group>"; };
+		32625D022A9A43F1005E3F0D /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
+		32625D032A9A43F2005E3F0D /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tulip.usdz; sourceTree = "<group>"; };
+		32625D042A9A43F2005E3F0D /* stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = stratocaster.usdz; sourceTree = "<group>"; };
+		32625D052A9A43F2005E3F0D /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = wateringcan.usdz; sourceTree = "<group>"; };
+		32625D062A9A43F3005E3F0D /* tv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv.usdz; sourceTree = "<group>"; };
+		32625D072A9A43F3005E3F0D /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				32625CFC2A99D703005E3F0D /* FurnitureARView.swift */,
 				32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */,
 				32625CF22A99D4ED005E3F0D /* Assets.xcassets */,
+				32625D012A9A43F1005E3F0D /* chair.usdz */,
+				32625D002A9A43F0005E3F0D /* cup.usdz */,
+				32625D022A9A43F1005E3F0D /* gramophone.usdz */,
+				32625D072A9A43F3005E3F0D /* teapot.usdz */,
+				32625D032A9A43F2005E3F0D /* tulip.usdz */,
+				32625D042A9A43F2005E3F0D /* stratocaster.usdz */,
+				32625D052A9A43F2005E3F0D /* wateringcan.usdz */,
+				32625D062A9A43F3005E3F0D /* tv.usdz */,
 				32625CF42A99D4ED005E3F0D /* Preview Content */,
 			);
 			path = Furniture_AR_swiftui_app;
@@ -131,8 +155,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32625D0E2A9A43F3005E3F0D /* tv.usdz in Resources */,
 				32625CF62A99D4ED005E3F0D /* Preview Assets.xcassets in Resources */,
+				32625D0C2A9A43F3005E3F0D /* stratocaster.usdz in Resources */,
 				32625CF32A99D4ED005E3F0D /* Assets.xcassets in Resources */,
+				32625D0F2A9A43F3005E3F0D /* teapot.usdz in Resources */,
+				32625D092A9A43F3005E3F0D /* chair.usdz in Resources */,
+				32625D0B2A9A43F3005E3F0D /* tulip.usdz in Resources */,
+				32625D082A9A43F3005E3F0D /* cup.usdz in Resources */,
+				32625D0A2A9A43F3005E3F0D /* gramophone.usdz in Resources */,
+				32625D0D2A9A43F3005E3F0D /* wateringcan.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

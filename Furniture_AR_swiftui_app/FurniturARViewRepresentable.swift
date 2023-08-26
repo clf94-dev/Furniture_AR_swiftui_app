@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct FurniturARViewRepresentable: UIViewRepresentable {
+    let item: FurnitureItem
     func makeUIView(context: Context) -> some UIView {
-        FurnitureARView()
+        FurnitureARView(item: item)
     }
     func updateUIView(_ uiView: UIViewType, context: Context) {
         

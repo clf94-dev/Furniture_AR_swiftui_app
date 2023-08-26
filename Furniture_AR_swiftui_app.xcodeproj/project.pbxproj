@@ -11,6 +11,8 @@
 		32625CF12A99D4E9005E3F0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32625CF02A99D4E9005E3F0D /* ContentView.swift */; };
 		32625CF32A99D4ED005E3F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32625CF22A99D4ED005E3F0D /* Assets.xcassets */; };
 		32625CF62A99D4ED005E3F0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32625CF52A99D4ED005E3F0D /* Preview Assets.xcassets */; };
+		32625CFD2A99D703005E3F0D /* FurnitureARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32625CFC2A99D703005E3F0D /* FurnitureARView.swift */; };
+		32625CFF2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		32625CF02A99D4E9005E3F0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		32625CF22A99D4ED005E3F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32625CF52A99D4ED005E3F0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32625CFC2A99D703005E3F0D /* FurnitureARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureARView.swift; sourceTree = "<group>"; };
+		32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurniturARViewRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				32625CEE2A99D4E9005E3F0D /* Furniture_AR_swiftui_appApp.swift */,
 				32625CF02A99D4E9005E3F0D /* ContentView.swift */,
+				32625CFC2A99D703005E3F0D /* FurnitureARView.swift */,
+				32625CFE2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift */,
 				32625CF22A99D4ED005E3F0D /* Assets.xcassets */,
 				32625CF42A99D4ED005E3F0D /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32625CFD2A99D703005E3F0D /* FurnitureARView.swift in Sources */,
 				32625CF12A99D4E9005E3F0D /* ContentView.swift in Sources */,
+				32625CFF2A99D8CE005E3F0D /* FurniturARViewRepresentable.swift in Sources */,
 				32625CEF2A99D4E9005E3F0D /* Furniture_AR_swiftui_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 				DEVELOPMENT_TEAM = YUBAHJ7MY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to display AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +313,7 @@
 				DEVELOPMENT_TEAM = YUBAHJ7MY9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera is needed to display AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

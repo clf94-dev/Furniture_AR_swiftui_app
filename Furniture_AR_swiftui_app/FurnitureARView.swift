@@ -20,12 +20,21 @@ class FurnitureARView: ARView {
     convenience init (item: FurnitureItem) {
         self.init(frame: UIScreen.main.bounds)
         
-        let anchor = AnchorEntity(.plane(.horizontal, classification: .floor, minimumBounds: .zero))
+        let anchor = AnchorEntity(.plane(.horizontal, classification: .table, minimumBounds: .zero))
         guard let entity = try? Entity.load(named: item.entityName) else {
             fatalError("Failed to load entity named \(item.entityName)")
         }
         
-        anchor.addChild(entity)
+        let parentEntity = ModelEntity()
+        parentEntity.addChild(entity)
+        
+        anchor.addChild(parentEntity)
         scene.addAnchor(anchor)
+        
+        let bounds = entity.visualBounds(relativeTo: parentEntity)
+        parentEntity.collision = CollisionComponent(shapes: [
+            ShapeResource.generateBox(size: bounds.extents).offsetBy(translation: bounds.center)])
+        
+        installGestures([.rotation, .scale, .translation],for: parentEntity)
     }
 }
